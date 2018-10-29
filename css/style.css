@@ -1,0 +1,51 @@
+.certificate h2 {
+    text-align: center;
+}
+
+.conteiner {
+    vertical-align: middle;
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.cert1, .cert2, .cert3 {
+    text-align: center;
+
+}
+
+.sert a {
+    text-decoration: none;
+    text-align: center;
+    color: #44423e;
+}
+
+@media only screen and (max-width: 980px) {
+    .conteiner {
+        grid-template-columns: none;
+    }
+}
+
+.big_pi {
+    /*display:none;*/
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+
+}
+
+.big_pi img {
+    padding-right: 10px;
+    float: left;
+}
+
+.big_pi p {
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #44423e;
+}
